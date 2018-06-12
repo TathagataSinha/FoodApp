@@ -1,0 +1,95 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<ons-page>
+<div class="transperent">
+  <ons-toolbar style="background:rgba(255,255,255,0.5)">
+       <div class="right">{{title}}</div>
+       <div class="left">
+         <ons-toolbar-button>
+           <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+         </ons-toolbar-button>
+       </div>
+       <div class="center" style="padding: 5px">
+         <ons-search-input id="text" style= "width:90%" placeholder="Type here" [(value)]="target"></ons-search-input>
+       </div>
+  </ons-toolbar>
+</div>
+
+    <div class="background"></div>
+        <div class="content">
+        <div style="padding: 0px ">
+        <!--    <p id="target">
+              {{target}}
+            </p>-->
+
+    <!--  <div class="ex1" >
+      <div id="elem" style="padding: 1px">
+        <p>
+          <ons-search-input id="text" style= "width:100%" placeholder="Type here" [(value)]="target"></ons-search-input>
+        </p>
+      <p id="target">
+          {{target}}
+        </p>
+      </div>
+    </div>-->
+
+
+
+
+  <div  class="qsr" >
+      <img width="100%" alt="Angular Logo"  src="https://sparkcreativearts.files.wordpress.com/2016/01/sponsor-banner-mcdonalds.png">
+        <h1 style="text-align: center">
+              {{ title }}!
+        </h1>
+  </div>
+<!-- use loo -->
+  <ons-card>
+      <div class="content">
+        <ons-list>
+            <ons-list-header>Menu</ons-list-header>
+            <ons-list-item tappable>
+              <div class="left">
+                <img class="list-item__thumbnail" style="padding:0px" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3776826/580/386/m1/fpnw/wm0/main-.jpg?1514269132&s=a515922e86ae52119a52fb91098e8508">
+              </div>
+              <div class="center">
+                <span class="list-item__title">Burger</span><span class="list-item__subtitle">The tasty burger</span>
+              </div>
+            </ons-list-item>
+
+            <ons-list-item tappable>
+            <div class="left">
+              <img class="list-item__thumbnail" style="padding:0px" src="https://previews.123rf.com/images/topvectors/topvectors1610/topvectors161000734/65698270-wrap-street-food-menu-item-realistic-detailed-illustration-take-away-lunch-icon-isolated-on-white-ba.jpg">
+            </div>
+            <div class="center">
+              <span class="list-item__title">Wraps</span><span class="list-item__subtitle">The tasty Wraps</span>
+            </div>
+            </ons-list-item>
+
+            <ons-list-item tappable>
+            <div class="left">
+              <img class="list-item__thumbnail" style="padding:0px" src="https://thumbs.dreamstime.com/b/fried-chicken-nuggets-fries-sauce-29785951.jpg">
+            </div>
+            <div class="center">
+              <span class="list-item__title">Nuggets</span><span class="list-item__subtitle">The tasty Nuggets</span>
+            </div>
+            </ons-list-item>
+
+            <ons-list-item tappable>
+            <div class="left">
+              <img class="list-item__thumbnail" style="padding:0px" src="https://thumbs.dreamstime.com/b/top-view-great-pizza-illustration-clip-art-eps-67347650.jpg">
+            </div>
+            <div class="center">
+              <span class="list-item__title">Pizza</span><span class="list-item__subtitle">The tasty Pizza</span>
+            </div>
+            </ons-list-item>
+
+
+
+        </ons-list>
+      </div>
+  </ons-card>
+        </div>
+        </div>
+
+    </ons-page>
